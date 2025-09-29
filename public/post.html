@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게시글</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">게시판</a></h1>
+      <nav></nav>
+    </header>
+    <main id="post-container">
+      <h2 id="post-title"></h2>
+      <p class="post-meta">작성자: <span id="post-author"></span> | 작성일: <span id="post-date"></span></p>
+      <div id="post-image-container"></div>
+      <div id="post-content"></div>
+    </main>
+
+    <section id="comment-section">
+      <h3>댓글</h3>
+      <ul id="comment-list"></ul>
+      <form id="comment-form">
+        <textarea name="comment" placeholder="댓글을 입력하세요..." required></textarea>
+        <button type="submit">댓글 작성</button>
+      </form>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
