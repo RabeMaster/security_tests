@@ -6,7 +6,21 @@
 
 > 이 코드는 XSS, SQL Injection, Path Traversal에 취약한 부분을 포함하고 있습니다.
 
-네이버 부스트캠프 10기 과정에서, XSS와 SQL Injection, Path Traversal 공격에 대한 이해를 돕기 위해 제작된 예제 프로젝트입니다.
+네이버 부스트캠프 10기 과정에서, 개인적인 발표를 위해 XSS와 SQL Injection, Path Traversal 공격에 대한 이해를 돕기 위해 제작된 예제 프로젝트입니다.
+
+> 부스트캠프의 과정이나 내용과는 무관합니다.
+
+---
+
+## 파일 설명
+
+- `safe.js`: 보안 취약점이 수정된 버전의 코드입니다.
+- `unsafe.js`: XSS, SQL Injection, Path Traversal에 취약한 버전의 코드입니다.
+- `init.sql`: MySQL 데이터베이스와 테이블을 생성하는 SQL 스크립트입니다.
+- `public/`: 정적 파일(HTML, CSS, JS 등)이 위치한 디렉토리입니다.
+- `.env, test.html, test.jpg`: Path Traversal 공격을 테스트하기 위한 파일입니다.
+- `README.md`: 프로젝트 설명 및 실행 방법이 포함된 파일입니다.
+-
 
 ## 실행 방법
 
