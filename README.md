@@ -19,8 +19,6 @@
 - `init.sql`: MySQL 데이터베이스와 테이블을 생성하는 SQL 스크립트입니다.
 - `public/`: 정적 파일(HTML, CSS, JS 등)이 위치한 디렉토리입니다.
 - `.env, test.html, test.jpg`: Path Traversal 공격을 테스트하기 위한 파일입니다.
-- `README.md`: 프로젝트 설명 및 실행 방법이 포함된 파일입니다.
--
 
 ## 실행 방법
 
